@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="0" failed="0" skipped="5">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-01-14T15:02:01 IST" name="Default suite" finished-at="2020-01-14T15:02:01 IST" duration-ms="109">
+    <groups>
+    </groups>
+    <test started-at="2020-01-14T15:02:01 IST" name="Default test" finished-at="2020-01-14T15:02:01 IST" duration-ms="109">
+      <class name="hometest.home_test">
+        <test-method is-config="true" signature="initialize(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:hometest.home_test@147ed70f]" started-at="2020-01-14T15:02:01 IST" name="initialize" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1578994321423" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'portalurl' is required by BeforeTest on method initialize but has not been marked @Optional or defined
+in C:\Users\Ashwinidr\AppData\Local\Temp\testng-eclipse--1589916121\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'portalurl' is required by BeforeTest on method initialize but has not been marked @Optional or defined
+in C:\Users\Ashwinidr\AppData\Local\Temp\testng-eclipse--1589916121\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:289)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+at org.testng.TestRunner.run(TestRunner.java:584)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="logintest()[pri:0, instance:hometest.home_test@147ed70f]" started-at="2020-01-14T15:02:01 IST" name="logintest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1578994321468" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method signature="search_test()[pri:1, instance:hometest.home_test@147ed70f]" started-at="2020-01-14T15:02:01 IST" name="search_test" finished-at="2020-01-14T15:02:01 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'portalurl' is required by BeforeTest on method initialize but has not been marked @Optional or defined
+in C:\Users\Ashwinidr\AppData\Local\Temp\testng-eclipse--1589916121\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'portalurl' is required by BeforeTest on method initialize but has not been marked @Optional or defined
+in C:\Users\Ashwinidr\AppData\Local\Temp\testng-eclipse--1589916121\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:289)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+at org.testng.TestRunner.run(TestRunner.java:584)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_test -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:hometest.home_test@147ed70f]" started-at="2020-01-14T15:02:01 IST" name="exit" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1578994321488" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+        <test-method is-config="true" signature="logintest()[pri:0, instance:hometest.home_test@147ed70f]" started-at="2020-01-14T15:02:01 IST" name="logintest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1578994321493" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method signature="babycare_test()[pri:2, instance:hometest.home_test@147ed70f]" started-at="2020-01-14T15:02:01 IST" name="babycare_test" finished-at="2020-01-14T15:02:01 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'portalurl' is required by BeforeTest on method initialize but has not been marked @Optional or defined
+in C:\Users\Ashwinidr\AppData\Local\Temp\testng-eclipse--1589916121\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'portalurl' is required by BeforeTest on method initialize but has not been marked @Optional or defined
+in C:\Users\Ashwinidr\AppData\Local\Temp\testng-eclipse--1589916121\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:289)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+at org.testng.TestRunner.run(TestRunner.java:584)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- babycare_test -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:hometest.home_test@147ed70f]" started-at="2020-01-14T15:02:01 IST" name="exit" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1578994321499" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+        <test-method is-config="true" signature="logintest()[pri:0, instance:hometest.home_test@147ed70f]" started-at="2020-01-14T15:02:01 IST" name="logintest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1578994321502" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method signature="mobiledet_test()[pri:3, instance:hometest.home_test@147ed70f]" started-at="2020-01-14T15:02:01 IST" name="mobiledet_test" finished-at="2020-01-14T15:02:01 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'portalurl' is required by BeforeTest on method initialize but has not been marked @Optional or defined
+in C:\Users\Ashwinidr\AppData\Local\Temp\testng-eclipse--1589916121\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'portalurl' is required by BeforeTest on method initialize but has not been marked @Optional or defined
+in C:\Users\Ashwinidr\AppData\Local\Temp\testng-eclipse--1589916121\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:289)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+at org.testng.TestRunner.run(TestRunner.java:584)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobiledet_test -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:hometest.home_test@147ed70f]" started-at="2020-01-14T15:02:01 IST" name="exit" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1578994321507" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+        <test-method is-config="true" signature="logintest()[pri:0, instance:hometest.home_test@147ed70f]" started-at="2020-01-14T15:02:01 IST" name="logintest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1578994321509" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method signature="trending_test()[pri:4, instance:hometest.home_test@147ed70f]" started-at="2020-01-14T15:02:01 IST" name="trending_test" finished-at="2020-01-14T15:02:01 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'portalurl' is required by BeforeTest on method initialize but has not been marked @Optional or defined
+in C:\Users\Ashwinidr\AppData\Local\Temp\testng-eclipse--1589916121\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'portalurl' is required by BeforeTest on method initialize but has not been marked @Optional or defined
+in C:\Users\Ashwinidr\AppData\Local\Temp\testng-eclipse--1589916121\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:289)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+at org.testng.TestRunner.run(TestRunner.java:584)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trending_test -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:hometest.home_test@147ed70f]" started-at="2020-01-14T15:02:01 IST" name="exit" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1578994321515" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+        <test-method is-config="true" signature="logintest()[pri:0, instance:hometest.home_test@147ed70f]" started-at="2020-01-14T15:02:01 IST" name="logintest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1578994321517" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method signature="wishlist_test()[pri:5, instance:hometest.home_test@147ed70f]" started-at="2020-01-14T15:02:01 IST" name="wishlist_test" finished-at="2020-01-14T15:02:01 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'portalurl' is required by BeforeTest on method initialize but has not been marked @Optional or defined
+in C:\Users\Ashwinidr\AppData\Local\Temp\testng-eclipse--1589916121\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'portalurl' is required by BeforeTest on method initialize but has not been marked @Optional or defined
+in C:\Users\Ashwinidr\AppData\Local\Temp\testng-eclipse--1589916121\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:289)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+at org.testng.TestRunner.run(TestRunner.java:584)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishlist_test -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:hometest.home_test@147ed70f]" started-at="2020-01-14T15:02:01 IST" name="exit" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1578994321522" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- hometest.home_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

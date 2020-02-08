@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17543" started-at="2020-01-15T22:03:05 IST" finished-at="2020-01-15T22:03:23 IST">
+    <groups>
+    </groups>
+    <test name="Login_Test" duration-ms="17543" started-at="2020-01-15T22:03:05 IST" finished-at="2020-01-15T22:03:23 IST">
+      <class name="loginTest.loginTest2">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:loginTest.loginTest2@402a079c]" name="initialize" is-config="true" duration-ms="16" started-at="2020-01-15T22:03:05 IST" finished-at="2020-01-15T22:03:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:loginTest.loginTest2@402a079c]" name="setup" is-config="true" duration-ms="6294" started-at="2020-01-15T22:03:05 IST" finished-at="2020-01-15T22:03:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validlogin_test()[pri:1, instance:loginTest.loginTest2@402a079c]" name="validlogin_test" duration-ms="3819" started-at="2020-01-15T22:03:11 IST" finished-at="2020-01-15T22:03:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlogin_test -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:loginTest.loginTest2@402a079c]" name="teardown" is-config="true" duration-ms="660" started-at="2020-01-15T22:03:15 IST" finished-at="2020-01-15T22:03:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:loginTest.loginTest2@402a079c]" name="setup" is-config="true" duration-ms="5104" started-at="2020-01-15T22:03:16 IST" finished-at="2020-01-15T22:03:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="invalidlogin_test()[pri:2, instance:loginTest.loginTest2@402a079c]" name="invalidlogin_test" duration-ms="703" started-at="2020-01-15T22:03:21 IST" finished-at="2020-01-15T22:03:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidlogin_test -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:loginTest.loginTest2@402a079c]" name="teardown" is-config="true" duration-ms="912" started-at="2020-01-15T22:03:22 IST" finished-at="2020-01-15T22:03:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- loginTest.loginTest2 -->
+    </test> <!-- Login_Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,7 @@
+cartpage\cartpage.class
+homecomponent\homecomponent.class
+profilepage\profilepage.class
+utils\applicationspecificcommonmethod.class
+utils\generic_common_method.class
+loginPage\loginPage.class
+utils\Environmentdata.class
