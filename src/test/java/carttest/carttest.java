@@ -27,7 +27,7 @@ public class carttest extends generic_common_method {
 	
 	@BeforeMethod
 	public void logintest() {
-		driver = launchbroswer("https://www.flipkart.com/");	 
+		driver = launchChromebroswer("https://www.flipkart.com/");	 
 		acm = new applicationspecificcommonmethod();
 		homecom = new homecomponent(driver);
 		loginpage = new loginPage(driver);

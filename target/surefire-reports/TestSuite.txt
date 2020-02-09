@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.293 s - in TestSuite
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 6.835 s <<< FAILURE! - in TestSuite
+loginTest.loginTest2.setup  Time elapsed: 6.681 s  <<< FAILURE!
+java.lang.NullPointerException: null value in entry: url=null
+	at loginTest.loginTest2.setup(loginTest2.java:47)
+

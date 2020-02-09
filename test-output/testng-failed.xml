@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <parameter name="portalusername" value="8660040638"/>
+  <parameter name="portalurl" value="https://www.flipkart.com/"/>
+  <parameter name="portalpassword" value="ashwini12345"/>
+  <test name="Login_Test(failed)" parallel="none">
     <classes>
-      <class name="hometest.home_test">
+      <class name="loginTest.loginTest">
         <methods>
-          <include name="wishlist_test"/>
-          <include name="logintest"/>
+          <include name="validlogin_test"/>
           <include name="initialize"/>
-          <include name="exit"/>
-          <include name="mobiledet_test"/>
-          <include name="search_test"/>
-          <include name="trending_test"/>
-          <include name="babycare_test"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- hometest.home_test -->
+      </class> <!-- loginTest.loginTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Login_Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
