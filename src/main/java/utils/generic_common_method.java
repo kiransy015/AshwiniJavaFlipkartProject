@@ -14,7 +14,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -23,10 +23,26 @@ import homecomponent.homecomponent;
 
 public class generic_common_method {
 
-	public static WebDriver launchbroswer(String appurl)
+	public static WebDriver launchChromebroswer(String appurl)
 	{
-		System.setProperty("webdriver.chrome.driver", "D:\\softwares\\chromedriver.exe");
+		
+		System.setProperty("webdriver.chrome.driver","D:\\softwares\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
+
+		driver.manage().window().maximize();
+		driver.get(appurl);
+	    return driver;
+		
+	}
+	
+	
+	public static WebDriver launchFirefoxbroswer(String appurl)
+	{
+		
+		System.setProperty("webdriver.gecko.driver","D:\\softwares\\geckodriver.exe");
+		WebDriver driver = new FirefoxDriver();
+		 
+		
 		driver.manage().window().maximize();
 		driver.get(appurl);
 	    return driver;

@@ -33,6 +33,7 @@ public class loginTest2 extends generic_common_method{
 	public void initialize()
 	{
 		System.out.println("Kiran we are in loginTest2 class");
+		System.out.println("Portal URl :"+System.getProperty("portalurl"));
 		endata.setPortalurl(System.getProperty("portalurl"));
 		endata.setPortalusername(System.getProperty("portalusername"));
 		endata.setPortalpassword(System.getProperty("portalpassword"));
@@ -43,7 +44,7 @@ public class loginTest2 extends generic_common_method{
 	@BeforeMethod
 	public void setup()
 	{
-		driver = launchbroswer(endata.getPortalurl());
+		driver = launchChromebroswer(endata.getPortalurl());
 		acm = new applicationspecificcommonmethod();
 		homecom = new homecomponent(driver);
 		loginpage = new loginPage(driver);
@@ -67,11 +68,11 @@ public class loginTest2 extends generic_common_method{
 			 movetoele(homecom.getUser_txt(), driver);
 			 waittillclickable(driver, homecom.getLogout_btn());
 			 clickonelement(homecom.getLogout_btn());
-			 waittillclickable(driver, loginpage.getLogin_or_signup_text());
-			 System.out.println(get_text_common_method(loginpage.getLogin_or_signup_text()));
-			 Assert.assertEquals(get_text_common_method(loginpage.getLogin_or_signup_text()), testdata.get(3).toString(), "Both are not equal");
+			 waittillclickable(driver, loginpage.getLogin_btn());
+			 //System.out.println(get_text_common_method(loginpage.getLogin_or_signup_text()));
+			 //Assert.assertEquals(get_text_common_method(loginpage.getLogin_or_signup_text()), testdata.get(3).toString(), "Both are not equal");
 			 //Assert.assertTrue("Ashwini".equalsIgnoreCase(txt), "Both are not equal");
-			 
+			 Assert.assertTrue(loginpage.getLogin_btn().isDisplayed(), "Login Btn is not present");
 			 
  
    }

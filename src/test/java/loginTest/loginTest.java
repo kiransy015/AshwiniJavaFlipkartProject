@@ -44,10 +44,11 @@ public class loginTest extends generic_common_method{
 	@BeforeMethod
 	public void setup()
 	{
-		driver = launchbroswer(endata.getPortalurl());
+		driver = launchChromebroswer(endata.getPortalurl());
 		acm = new applicationspecificcommonmethod();
 		homecom = new homecomponent(driver);
 		loginpage = new loginPage(driver);
+		//loginpage.getUsername_txt().sendKeys("kiran");
 		
 		
 	}
@@ -68,10 +69,11 @@ public class loginTest extends generic_common_method{
 			 movetoele(homecom.getUser_txt(), driver);
 			 waittillclickable(driver, homecom.getLogout_btn());
 			 clickonelement(homecom.getLogout_btn());
-			 waittillclickable(driver, loginpage.getLogin_or_signup_text());
-			 System.out.println(get_text_common_method(loginpage.getLogin_or_signup_text()));
-			 Assert.assertEquals(get_text_common_method(loginpage.getLogin_or_signup_text()), testdata.get(3).toString(), "Both are not equal");
+			 waittillclickable(driver, loginpage.getLogin_btn());
+			 //System.out.println(get_text_common_method(loginpage.getLogin_or_signup_text()));
+			 //Assert.assertEquals(get_text_common_method(loginpage.getLogin_or_signup_text()), testdata.get(3).toString(), "Both are not equal");
 			 //Assert.assertTrue("Ashwini".equalsIgnoreCase(txt), "Both are not equal");
+			 Assert.assertTrue(loginpage.getLogin_btn().isDisplayed(), "Login Btn is not displayed");
 			 
 			 
  

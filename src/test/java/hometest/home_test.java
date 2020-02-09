@@ -46,7 +46,7 @@ public class home_test extends generic_common_method {
 	
 	@BeforeMethod
 	public void logintest() {
-		driver = launchbroswer(endata.getPortalurl());	 
+		driver = launchChromebroswer(endata.getPortalurl());	 
 		acm = new applicationspecificcommonmethod();
 		homecom = new homecomponent(driver);
 		loginpage = new loginPage(driver);
